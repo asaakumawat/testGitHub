@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using DS4UEMR.Domain.Concrete;
 using DS4UEMR.Domain.Entities;
 
-namespace DS4UEMR.Web.Common
+namespace Demo.Web.Common
 {
     public class CustomAuthorizeAttribute : AuthorizeAttribute
     {
