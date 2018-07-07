@@ -1,0 +1,18 @@
+﻿@using RERA.Framework.Captcha;
+@using RERA.Framework.UI;
+@using System.Web.Mvc.Html;
+@helper CustomCaptcha()
+{
+    @*<div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6">
+            <input type="text" name="clientCaptcha" placeholder="Captcha" required class="form-control" />
+        </div>
+    </div>*@
+    <div class="input-group captcha-login">
+        <span class="input-group-addon" id="basic-addon1"><img src="/Home/GetCaptchaImage" title="Captcha" class="img-responsive captcha-img" /></span>
+        @*<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">*@
+        <input type="text" name="clientCaptcha" placeholder="Captcha" required class="form-control" maxlength="7" />
+    </div>
+}
