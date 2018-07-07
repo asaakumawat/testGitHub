@@ -1,5 +1,4 @@
-﻿@using RERA.Framework.Captcha;
-@using RERA.Framework.UI;
+
 @using System.Web.Mvc.Html;
 @helper CustomCaptcha()
 {
@@ -16,3 +15,13 @@
         <input type="text" name="clientCaptcha" placeholder="Captcha" required class="form-control" maxlength="7" />
     </div>
 }
+
+@*How To Call*@
+    
+     <div class="form-group">
+                        <div class="col-xs-12">
+                            @Helpers.CustomCaptcha()
+                           @* @Html.Raw(Html.GenerateCaptcha())*@
+                            @*<div class="g-recaptcha" data-sitekey="6LfgaCUUAAAAAG622WyJEnKUbwBfC8IvE-y_AccA"></div><br>*@
+                        </div>
+                    </div>
