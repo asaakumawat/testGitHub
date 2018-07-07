@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Mvc.Html;
 using System.Text;
 
-namespace DS4UEMR.Web.Common
+namespace Demo.Web.Common
 {
     public static class ActionLinkExtensions
     {
