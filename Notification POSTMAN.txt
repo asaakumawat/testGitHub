@@ -1,0 +1,150 @@
+userType == "Diagnose"
+Pharmacy
+Expert
+====
+LocalTransactionId
+
+IOS Resolved Issues
+
+ (Ticket No. = 36718)
+
+1. kayawell IOS local>>expert login>> click on wellness plan>>click on sale plan
+
+Expert is unable to sale (Book) plan for member.
+
+2. kayawell IOS local>>expert login>> click on wellness plan>>click on sale plan>>member detail page.
+
+remove the Mandatory field from "mail id" Field of member detail.
+
+3. kayawell IOS local>>expert login>> click on wellness plan>>click on campaign (SMS, Email).
+
+Charater Count is not display Proper.It should be display proper.
+
+4. kayawell IOS local>>expert login>> click on wellness plan>>click on campaign with Email ( self and kayawell member type).
+
+App Crashed when expert do email campaign.
+
+5. kayawell IOS local>>member login>> click on wellness plan from home page>>book plan>> enter details and click on proceed button.
+
+by default cursor should be blink on Apply Coupon Code Field
+
+6. kayawell IOS local>>expert login>> click on wellness plan>> Create wellness Plan.
+
+validation text should be correct related to payment mode on " select payment type " field.
+==============================================================================================================
+(Ticket NO.=  36719)
+
+
+7. kayawell IOS local>>member login>> click on booked wellness plan >>click on detail button.  
+
+*1. Cancel Order Option should not display when order status is "Pending and Complete".
+
+2. member is unable to write on cancel order popup. popup UI should be display proper.
+
+3. App Crashed when member click on submit button of cancel order popup*.
+
+========================================================================
+(Ticket NO.=  36726)
+
+
+8. kayawell IOS local>>member login>> click on booked Lab Test >> Click on Detail Button
+
+Member is unable to write on reason on cancel Lab test popup.
+
+9. kayawell IOS local>>member login>> click on booked Lab Test >> Click on Detail Button>> cancel lab test.
+
+*Double Enter Display in Member's booked lab test list.
+
+App crashed when member refresh the page after cancel the lab test order.*
+
+10. kayawell IOS local>>member login>> click on booked Lab Test
+
+lab test detail UI should be display Proper.
+
+11. kayawell IOS local>expert login>> click on Lab Test list >> click on payment enter detail and click on submit button
+
+display white page on click submit button of payment on lab test.
+
+12. kayawell IOS local>expert login>> click on Lab Test list >> click on payment enter detail and click on submit button>>click on back button
+
+App crashed on click back button of lab test payment page.
+
+13. kayawell IOS local>expert login>> click on Lab Test list >> click on order status enter detail and click on submit button
+
+display white page on click submit button of order status on lab test.
+
+14. kayawell IOS local>expert login>> click on Lab Test list >> click on order status enter detail and click on submit button>>click on back button
+
+App crashed on click back button of lab test order status page.
+==========================================================================
+(Ticket NO.=  36732)
+
+15. kayawell IOS local>>expert login>> click on events >>click on campaign with Email ( self and kayawell member type).
+
+App Crashed when expert do email campaign.
+
+16. kayawell IOS local>>expert login>> click on events >>add event>> view event list from home page.
+
+new added events is not showing in event list of home page.
+==========================================================================
+
+(Ticket NO.=  36733)
+
+
+17. kayawell IOS local>>member login>> click on booked vaccination >> Click on Detail Button
+
+Member is unable to write on reason on cancel Lab test popup.
+
+18. kayawell IOS local>>member login>> click on booked vaccination >> Click on Detail Button>> cancel lab test.
+
+*Double Enter Display in Member's booked lab test list.
+
+App crashed when member refresh the page after cancel the lab test order.*
+
+19. kayawell IOS local>>member login>> click on booked vaccination.
+
+lab test detail UI should be display Proper.
+
+20. kayawell IOS local>expert login>> click on vaccination list >> click on payment enter detail and click on submit button
+
+*display white page on click submit button of payment on vaccination.
+
+21. kayawell IOS local>expert login>> click on vaccination list >> click on payment enter detail and click on submit button>>click on back button
+
+App crashed on click back button of vaccination payment page.
+
+22. kayawell IOS local>expert login>> click on vaccination list >> click on order status enter detail and click on submit button
+
+display white page on click submit button of order status on vaccination
+
+23. kayawell IOS local>expert login>> click on vaccination list >> click on order status enter detail and click on submit button>>click on back button
+
+App crashed on click back button of vaccination order status page.
+
+=================================================================================
+(Ticket NO.=  36119)
+
+24. kayawell local>>member login>>click on booked wellness plan list
+
+Add "download receipt" Functionality on member's booked wellness plans
+
+====================================================================
+
+(Ticket NO.=  36752)
+
+25. kayawell local >> book wellness plan from home page ( lab test) >> member receive notification on app>> click on received notification
+
+Page should be redirect to correct place. it should be redirect to booked wellness plan list page.
+
+===============================================================
+
+IOS Pending Isues
+
+36859
+36860
+36716
+36717
+
+
+=============================================================================
+
